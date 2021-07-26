@@ -1,0 +1,1159 @@
+
+
+#background,
+#background2,
+#background3,
+#background4,
+#background5,
+#background6{
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+
+#preloader {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#2E73B7; /* change if the mask should have another color then white */
+    z-index:6000; /* makes sure it stays on top */
+}
+
+
+
+
+#background{
+
+    background:  url(img/tile_yellow.png) ;
+
+}
+#background2{
+    z-index: 0;
+    background:  url(img/tile_blue.png) ;
+}
+
+#background3{
+    z-index: 0;
+    background:  url(img/tile_yellow.png) ;
+}
+
+#background4{
+    z-index: 0;
+    background:  url(img/tile_blue.png) ;
+}
+
+#background5{
+    z-index: 0;
+    background:  url(img/tile_yellow.png) ;
+}
+
+#background6{
+    z-index: 0;
+    background:  url(img/tile_blue.png) ;
+}
+
+#welcome_ribbon,
+#printer,
+#printerBack,
+#homeKAh1,
+.homeKAp,
+#slit,
+#sunburst
+
+{
+    
+    left: 50%;
+    z-index: 1000;
+}
+
+
+#home_txt{
+    top: 3px;
+}
+#about_txt{
+    top: 43px;
+}
+#team_txt{
+    top: 83px;
+}
+#services_txt{
+    top: 123px;
+}
+#product_txt{
+    top: 163px;
+}
+#contact_txt{
+    top: 203px;
+}
+
+
+
+#map_holder {
+    box-shadow: 0px 0px 300px #000;
+    position:fixed;
+    width: 640px;
+    height: 480px;
+    border-radius: 30px;
+    background-color: #fff;
+    overflow: hidden;
+    height:auto;
+    left:50%;
+    margin-left: -320px;
+    top:50%;
+    margin-top: -240px;
+
+
+}
+#map {
+    position:inherit;
+    width: 600px;
+    height:400px;
+    margin: 20px;
+
+
+}
+
+
+#blue,
+#magenta,
+#yellow,
+#purple,
+#grey,
+#darkGrey,
+#black{
+    width: 125px;
+    height: 40px;
+
+}
+
+#blue{
+    position: absolute;
+
+    top:0px;
+    background-color: rgb(65, 155, 232);
+    /*top:0px;*/
+}
+
+#magenta{
+    position: absolute;
+    top:40px;
+     background-color: rgb(226, 0, 125);
+     /*top:30px;*/
+ }
+
+
+#yellow{
+    position: absolute;
+    top:80px;
+    background-color: rgb(247, 241, 29);
+    /*top:60px;*/
+}
+
+#black{
+    position: absolute;
+    top:120px;
+    background-color: rgb(0, 0, 0);
+    /*top:210px;*/
+}
+
+
+#darkGrey{
+    position: absolute;
+    top:160px;
+    background-color: rgb(114, 116, 119);
+
+}
+
+#grey{
+    position: absolute;
+    top:200px;
+    background-color: rgb(175, 177, 181);
+    /*top:180px;*/
+}
+
+.popup{
+    box-shadow: 0px 0px 300px #000;
+    position:fixed;
+    opacity: 0.95;
+    width:500px;
+    height:auto;
+    left:50%;
+    margin-left: -250px;
+    top:50%;
+    margin-top: -250px;
+    background-color: #ffffff;
+    /*visibility: hidden;*/
+    border-radius: 20px;
+
+
+}
+
+.close_popup{
+    position:absolute;
+    top:15px;
+    right:15px;
+    z-index: 5000;
+}
+
+#crop0,
+#crop1,
+#crop2,
+#crop3{
+    z-index: 1001;
+    position: fixed;
+    width: 67px;
+    height: 67px;
+    background-image: url(./img/marks.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#crop0{
+    top: 50px;
+    left:50px;
+    background-position: 0 0;
+}
+#crop1{
+    top: 50px;
+    right:50px;
+    background-position: -67px 0;
+}
+#crop2{
+    bottom: 50px;
+    left:50px;
+    background-position: 0 -67px;
+}
+#crop3{
+    background-position: -67px -67px;
+    bottom: 50px;
+    right:50px;
+}
+
+#welcome_ribbon{
+
+    margin-left: -263px;
+
+}
+
+#printer{
+    width: 260px;
+    height:205px;
+    margin-left: -130px;
+    overflow:hidden;
+}
+
+#printerBack{
+    margin-left: -97px;
+
+}
+
+#nippyPages{
+    position: absolute;
+    /*z-index: 4999;*/
+    width: 125px;
+    height:157px;
+    margin-left:69px;
+    margin-top:30px;
+
+}
+
+#printerFront{
+    position: absolute;
+    z-index: 5000;
+    margin-top:115px;
+}
+
+#homeKAh1{
+    font-size: 3rem;
+    text-align: center;
+    width:300px;
+    margin-top:70px;
+    margin-left: -150px;
+
+}
+
+#home_advert{
+    position: absolute;
+    margin-top:140px;
+    left: 50%;
+}
+
+.homeKAp{
+    color: #ffffff;
+    text-align: center;
+    width:450px;
+    margin-left: -225px;
+
+}
+
+
+
+.item{
+    position: absolute;
+    /*border-width: 1px;*/
+    /*border-color: #3372ba;*/
+    /*border-style: solid;*/
+}
+
+.item_p{
+    position: absolute;
+    color: #265E98;
+    text-align: center;
+    width:450px;
+    margin-top: 50px;
+}
+
+.img_left{
+    position: absolute;
+    left:-42px;
+    top:-10px;
+}
+
+.img_right{
+    top:-10px;
+    position: absolute;
+
+}
+
+
+#slit{
+    margin-left: -249px;
+}
+
+#sunburst{
+    margin-top: -330px;
+    margin-left: -323px;
+}
+
+.blue_quote_btn{
+
+    width:163px;
+    height:163px;
+    background-image:url(./img/badge_blue.png);
+    background-color:rgba(0,0,0,0);
+    border-style: none;
+
+}
+
+.yellow_quote_btn{
+
+    width:163px;
+    height:163px;
+    background-image:url(./img/badge_yellow.png);
+    background-color:rgba(0,0,0,0);
+    border-style: none;
+
+}
+
+.home_next_btn{
+
+    width:61px;
+    height:38px;
+    background-image:url(./img/arrow_next.png);
+    background-color:rgba(0,0,0,0);
+    border-style: none;
+
+}
+
+
+.tri{
+    position: absolute;
+    top:0;
+    left:50%;
+    margin-left: -48px;
+    z-index: 5000;
+}
+
+#about_holder{
+width: 800px;
+
+
+}
+
+
+#about_img1{
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+#about_img2{
+    position:absolute;
+    top:60px;
+    left:275px;
+}
+#about_img3{
+    position:absolute;
+    top:60px;
+    right:0px;
+}
+
+#about_curve1{
+     position:absolute;
+     top:0px;
+     left:170px;
+ }
+#about_curve2{
+    position:absolute;
+    top:0px;
+    left:450px;
+}
+
+#about_plus{
+     position:absolute;
+     top:200px;
+     left:265px;
+ }
+
+#about_minus{
+    position:absolute;
+    top:200px;
+    left:540px;
+}
+
+.arrow_curve{
+    position:absolute;
+    top: 0px;
+    margin-left: -80px;
+}
+
+#about_holder .plusMinus{
+    position: absolute;
+    top:135px;
+    margin-left:-12px;
+    font-family: "duke_fillfill";
+    color: #ffffff;
+    font-size: 50pt;
+    font-weight: normal;
+
+}
+
+.moreLinkLeft h4{
+   display: inline-block;
+    line-height: 10px;
+
+}
+.moreLinkRight h4{
+   display: inline-block;
+    line-height: 10px;
+}
+#aboutTextLeft{
+    position: absolute;
+    top:330px;
+    left:0px;
+    width:350px;
+
+
+}
+#splitter{
+    position: absolute;
+    top:350px;
+    left:398px;
+    width: 4px;
+    height:300px;
+    background-color: #ffffff;
+
+}
+#aboutTextRight{
+    position: absolute;
+    top:0;
+    top:330px;
+    left:450px;
+    width:350px;
+    text-align: right;
+
+
+}
+
+
+#teamHolder{
+    position: absolute;
+    width: 800px;
+    height:700px;
+    /*border:1px dashed blue;*/
+}
+
+#teamHolder{
+    text-align: center;
+}
+#team_bigboss{
+     position: absolute;
+     top:0px;
+     left:120px;
+
+ }
+#team_bubble{
+    position: absolute;
+    top:70px;
+    left:260px;
+    z-index: 1000;
+
+}
+
+#team_meet{
+    position: absolute;
+    top:0px;
+    left:530px;
+
+}
+#team_divider{
+    position: absolute;
+    top:150px;
+    left:398px;
+    width:4px;
+    height:500px;
+    background-color: #ffffff;
+}
+
+#team_terence{
+    position: absolute;
+    top:120px;
+    left:25px;
+
+}
+
+#team_hello{
+    position: absolute;
+    top:420px;
+    left:40px;
+
+}
+#team_polaroid{
+    position: absolute;
+    top:150px;
+    left:445px;
+    width:305px;
+    height:319px;
+    background-image: url(./img/team_polaroid.png);
+
+}
+
+#team_polaroid img{
+
+    position: absolute;
+    top:20px;
+    right:12px;
+}
+
+#teamTextLeft{
+    position: absolute;
+    top:450px;
+    left:30px;
+    width:350px;
+
+
+}
+
+#teamTextRight{
+    position: absolute;
+    top:470px;
+    left:420px;
+    width:350px;
+
+
+}
+
+#container {
+    position: absolute;
+    width: 638px;
+    height: 638px;
+}
+.field {
+
+    position: absolute;
+    background-image: url(./img/services_service.png);
+    background-repeat: no-repeat;
+    width: 186px;
+    height:145px;
+
+}
+.field .moreLinkLeft{
+    position: absolute;
+    top:50px;
+    right:5px;
+}
+
+.icon{
+    position: absolute;
+    left:60px;
+    top:15px;
+}
+
+.field .header{
+    position: absolute;
+    top:76px;
+    width: 186px;
+    text-align: center;
+    font-family: "georgia";
+    color: #fff;
+    font-size: 11pt;
+    font-weight: normal;
+
+}
+
+#services_arrow{
+    position: absolute;
+    top: 95px;
+    left: 90px;
+}
+
+#services_car{
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+}
+#services_car2{
+    position: absolute;
+    bottom: 0px;
+    right:0px;
+}
+
+#background5 h1{
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-left: 70px;
+    margin-top: 120px;
+    opacity: .7;
+    font-size: 50pt;
+
+}
+
+#products_printer_back{
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left: -267px;
+    margin-top:55px;
+}
+#products_printer_front{
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left: -267px;
+    margin-top:80px;
+}
+
+#products_page_mask{
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left: -225px;
+    margin-top:-345px;
+    overflow: hidden;
+    width:450px;
+    height:425px;
+}
+#products_pages{
+    position: absolute;
+
+
+}
+
+.products_page{
+    width: 450px;
+    height:325px;
+    background-image: url(./img/products_page.png);
+    background-repeat:no-repeat;
+    /*margin-top:300px;*/
+}
+.products_img{
+
+    position: relative;
+    width: 180px;
+    vertical-align:top;
+    display: inline-block;
+    display: inline-block;
+    padding: 5px;
+    margin:30px 15px 0px 15px;
+    border-width: 1px;
+    border-color: #cccccc;
+    border-style: solid;
+
+
+}
+.products_content{
+
+    position: relative;
+   display: inline-block;
+    vertical-align:top;
+    width:200px;
+}
+.products_content .content{
+    margin-top: -20px;
+}
+
+#products_slit{
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-left: -248px;
+    margin-top: 165px;
+}
+
+#products_icons{
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left: -367px;
+    margin-top:190px;
+
+}
+.products_icon{
+
+    display:inline-block;
+    vertical-align: top;
+    position: relative;
+    width:46px;
+    height:71px;
+    /*padding: 5px;*/
+    /*border-width: 1px;*/
+    /*border-color: #fff;*/
+    /*border-style: dashed;*/
+    background-image: url(./img/products_thumb.png);
+    background-repeat: no-repeat;
+    /*background-position: 5px 5px;*/
+
+}
+.products_divider{
+    display:inline-block;
+    vertical-align: top;
+    width:0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 71px;
+    border-right-width: 1px;
+    border-right-color: #fff;
+    border-right-style: dashed;
+}
+.products_number{
+    position: relative;
+
+
+}
+
+#contact_holder{
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-left: -415px;
+    margin-top: -200px;
+
+}
+
+.contact_badge{
+    position: absolute;
+    background-image: url(./img/contact_badge.png);
+    background-repeat: no-repeat;
+    width: 170px;
+    height: 222px;
+    text-align: center;
+
+}
+
+.contact_header_main{
+    position: absolute;
+    width: 170px;
+    top: 10px;
+    font-family: "duke_fillfill";
+    color: #ffffff;
+    font-size: 35pt;
+
+}
+
+#contact_text{
+  position: absolute;
+    width:400px;
+    top:220px;
+}
+
+.contact_header_sub{
+    position: absolute;
+    width: 170px;
+    font-family: Georgia;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 15pt;
+    top:100px;
+
+}
+
+.contact_header_detail{
+    position: absolute;
+    width: 170px;
+    bottom: 8px;
+    font-family: "duke_fillfill";
+    color: #ffffff;
+    font-size: 20pt;
+
+}
+
+.contact_or{
+    position:absolute;
+    background-image: url(./img/contact_or.png);
+    background-repeat: no-repeat;
+    top: 70px;
+    width: 39px;
+    height: 31px;
+
+}
+#contact_or1{
+     left: 175px;
+ }
+#contact_or2{
+    left: 395px;
+}
+#contact_or3{
+    left: 615px;
+}
+#contact_b1{
+     top:0px;
+     left:0px;
+}
+
+#contact_b2{
+    top:0px;
+    left:220px;
+}
+#contact_b3{
+    top:0px;
+    left:440px;
+}
+#contact_b4{
+    top:0px;
+    left:660px;
+}
+
+#contact_curve1{
+    position: absolute;
+    top:-60px;
+    left:100px;
+}
+#contact_curve2{
+    position: absolute;
+    top:-60px;
+    left:325px;
+}
+#contact_curve3{
+    position: absolute;
+    top:-60px;
+    left:550px;
+}
+
+.addthis_toolbox{
+
+   margin-top: 10px;
+}
+
+
+
+#quote_form{
+    box-shadow: 0px 0px 300px #000;
+    position: fixed;
+    width: 500px;
+    height: auto;
+    top:50%;
+    left:50%;
+    margin-left:-250px;
+    margin-top: -300px;
+    background-color:#fff;
+    border-radius: 20px;
+    padding: 10px 30px 30px 30px;
+
+}
+
+#quote_left{
+    position: relative;
+    width:47.5%;
+    height:auto;
+    float: left;
+    /*display: inline-block;*/
+
+
+
+}
+#quote_center{
+    position: relative;
+   width: 5%;
+   height: 20px;
+    display: inline-block;
+    float: left;
+    
+}
+
+#quote_right{
+    position: relative;
+    width:47.5%;
+    height:auto;
+    float: left;
+    /*display: inline-block;*/
+
+}
+
+#quote_bottom{
+    position: relative;
+    display: inline-block;
+    /*margin-top: 30px;*/
+    width: 100%;
+    height: auto;
+
+
+}
+
+#quote_form p{
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.quote_white{
+    position: fixed;
+    top:10px;
+    right:10px;
+    width:70px;
+    height:70px;
+    background-image:url(./img/quote_white.png);
+    background-color:rgba(0,0,0,0);
+    border-style: none;
+}
+
+input{
+    width:100%;
+    height: 30px;
+
+}
+
+textarea{
+    width:100%;
+    height: 30px;
+}
+
+#submit_btn{
+
+    display: block;
+    width: 119px;
+    height: 38px;
+    margin-top: 10px;
+
+}
+
+#credit{
+    position: fixed;
+    z-index: 8000;
+    font-family: Georgia;
+    font-style: italic;
+    color: #000000;
+    font-size: 15px;
+    padding: 10px;
+    bottom: 0;
+    right: 0;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+html, body {
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+	overflow-x:hidden;
+}
+
+.skrollable {
+	
+	position:fixed;
+
+	
+	z-index:100;
+}
+
+
+
+.skrollable .skrollable {
+	
+	position:absolute;
+
+
+}
+
+.skrollable .skrollable .skrollable {
+	
+	position:static;
+
+}
+
+
+
+
+
+
+@import url('../fonts/specimen_files/grid_12-825-55-15.css');
+
+@font-face {
+    font-family: 'duke_fillfill';
+    src: url('../fonts/duke_fill-webfont.eot');
+    src: url('../fonts/duke_fill-webfont.eot') format('embedded-opentype'),
+    url('../fonts/duke_fill-webfont.woff') format('woff'),
+    url('../fonts/duke_fill-webfont.ttf') format('truetype'),
+    url('../fonts/duke_fill-webfont.svg#duke_fillfill') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'seasideresortnfregular';
+    src: url('../fonts/seasrn__-webfont.eot');
+    src: url('../fonts/seasrn__-webfont.eot') format('embedded-opentype'),
+    url('../fonts/seasrn__-webfont.woff') format('woff'),
+    url('../fonts/seasrn__-webfont.ttf') format('truetype'),
+    url('../fonts/seasrn__-webfont.svg#seasideresortnfregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1{
+    font-family: "duke_fillfill";
+    color: #ffffff;
+    font-size: 60pt;
+    font-weight: normal;
+    line-height: 0px;
+}
+
+h2{
+    font-family: "seasideresortnfregular";
+    color: #ffffff;
+    font-size: 18pt;
+    font-weight: normal;
+
+}
+
+h3{
+    font-family: "seasideresortnfregular";
+    color: #ffffff;
+    font-size: 10pt;
+    font-weight: normal;
+    /*line-height: 0px;*/
+}
+
+h4{
+    font-family: "georgia";
+    color: #ffffff;
+    font-size: 10pt;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 0px;
+}
+
+h5{
+    font-family: "georgia";
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 9pt;
+    line-height: 0px;
+}
+
+p{
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 12pt;
+    color: #ffffff;
+
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.content4line{
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 12pt;
+    color: #ffffff;
+    height: 78px;
+    overflow: hidden;
+}
+
+.content8line{
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 12pt;
+    color: #ffffff;
+    height: 135px;
+    overflow: hidden;
+}
+
+
+.medium{
+    font-family: "duke_fillfill";
+    color: #ffffff;
+    font-size: 50pt;
+    font-weight: normal;
+}
+
+
+
+.products_number{
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 30pt;
+    margin-top: 10px;
+    color: #2b6791;
+    width: auto;
+    text-align: center;
+}
+
+.products_name{
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 9pt;
+    color: #2b6791;
+    width: auto;
+    text-align: center;
+    margin-top: 18px;
+}
+.products_h2{
+    font-family: "duke_fillfill";
+    color: #2e73b7;
+    font-size: 30pt;
+    font-weight: normal;
+
+    border-bottom-width: 5px;
+    border-bottom-color: #3372ba;
+    border-bottom-style: dotted;
+
+}
+
+.home_advert_header{
+
+    position:absolute;
+    font-family: "duke_fillfill";
+
+    color: #2e73b7;
+    font-size: 30pt;
+    font-weight: normal;
+    margin-top: -10px;
+    white-space: nowrap;
+
+}
+
+
+
+
+
